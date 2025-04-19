@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+     position: relative;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.center1 h2{
+    text-align: center;
+    display: flex;
+    justify-content: start;
+   
+
+}
+.Hamburgers1{
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: #e31837;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header  img {
+    height: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+/* Combos Buttons */
+
+.menu-button:hover {
+    background-color: #b71c1c;
+}
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 a{
+    color: #000000;
+}
+.hero h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.menu, .about, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu h2, .about h2, .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.menu-item {
+    background-color: rgb(236, 232, 232);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.menu-item .price {
+    font-size: 1.2em;
+    color: #e31837;
+    font-weight: bold;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #e31837;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact form button:hover {
+    background-color: #c4142f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+ /* Logo Container */
+ .logo-container {
+    text-align: center;
+    padding: 5px 0;
+}
+.logo {
+    max-width: 200px; /* Adjust based on your logo size */
+    height: 50px;
+}
+
+/* Navigation Bar */
+.nav-container {
+    background-color: #d32f2f; /* Red background matching Wendy's branding */
+    padding: 10px 0;
+    text-align: center;
+}
+.nav-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex; /* Align buttons horizontally */
+    gap: 20px; /* Space between buttons */
+}
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove default link underline */
+    transition: color 0.3s;
+}
+.nav-button:hover {
+    color: #ffcccc; /* Lighter red on hover for contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-buttons {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        gap: 10px;
+    }
+    .nav-button {
+        display: block; /* Ensure buttons stack properly */
+        padding: 8px 15px;
+    }
+}
+.header10 {
+    border: 2px solid #000000;
+    padding: 0.5px 0px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.content10 {
+    font-size: 16px;
+    color: #333333;
+    
+}
+.menu-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.menu-item5{
+    background-color: #e31837;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;  /* Allows flexible expansion */
+    flex-basis: 150px;  /* Sets the initial size */
+    max-width: 200px; /* Prevents items from being too wide */
+    text-align: center;
+}
+.menu-item5:hover {
+    background-color: #8b0000;
+}
+button a{ 
+    text-decoration: none;
+    color: white;
+}
+h2 {
+      color: #333;  }
+
+      .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #e31837;
+        color: white;
+        padding: 10px 12px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 3px;
+        font-size: 20px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+      
+      .scroll-to-top:hover {
+        background-color: #e31837;
+      }  
+
+#color1{
+    color: #e31837 ;
+}
